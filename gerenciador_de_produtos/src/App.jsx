@@ -10,11 +10,9 @@ const App = () => {
     <Navbar />
     <div className="container">
     <Routes>
-        <Route path="/" element={<Inicial />} />
         <Route path="/listar-fornecedores" element={<FornecedorList />} />
         <Route path="/add-fornecedores" element={<FornecedorForm />} />
         <Route path="/edit-fornecedores/:id" element={<FornecedorForm />} />
-        <Route path="/listar-produtos" element={<ProdutoList />} />
       </Routes>
     </div>
     </BrowserRouter>
